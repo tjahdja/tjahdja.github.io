@@ -1,0 +1,122 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'poppins', sans-serif;
+}
+
+body{
+    background: url('bg.png') no-repeat;
+    background-size: 100%;
+}
+.intro{
+    color: white;
+    font-size: 60px;
+    font-weight: bold; 
+}
+.hi{
+    position: relative;
+    left: 30px;
+    top: 10px;
+    width: 500px;
+}
+.name{
+    position: relative;
+    left: 100px;
+    top: -18px;
+    width: 800px;
+}
+.desc{
+    position: relative;
+    left: 30px;
+    top: 50px;
+    width: 650px;
+    height: 100px;
+    color: white;
+    text-align: justify;
+    font-size: 20px;
+    letter-spacing: 0.2mm;
+}
+.work{
+    position: relative;
+    left: 30px;
+    top: 60px;
+    width: 200px;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+}
+.github{
+    position: relative;
+    left: 200px;
+    top: 30px;
+    color: black;
+    font-size: 20px;
+    text-decoration: none;
+    background-color: #A63131;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.hub{
+    position: relative;
+    color: white;
+    left: 30px;
+    top: 200px ;
+    font-size: 18px;
+    width: 500px;
+    
+}
+.link{
+    position: relative;
+    left: 100px;
+    top: -82px;
+    font-weight: bold;
+    color: #55D271;
+    text-decoration: none;
+}
+.addr{
+    position: relative;
+    left: 100px;
+    top: -25px;
+    font-weight: bold;
+    color: #55D271;
+    text-decoration: none;
+}
+.experiences{
+    position: relative;
+    width: 300px;
+    color: white;
+    left: 1000px;
+    font-size: 20px;
+    top: -240px;
+}
+.work-exp{
+    font-weight: bold;
+}
+.tittle{
+    position: relative;
+    top:15px;
+    left: 30px;
+    width: 200px;
+    background-color: #A63131;
+    text-align: center;
+    border-radius: 5px;
+}
+.year{
+    position: relative;
+    top:20px;
+    left: 30px;
+}
+.company{
+    position: relative;
+    top:20px;
+    left: 30px;
+}
+.kotak{
+    position: relative;
+    top: -90px;
+    left:10px;
+    width: 350px;
+    height: 120px;
+    background-color: rgba(255, 255, 255, 0.05);
+    border-radius: 8px;
+}
