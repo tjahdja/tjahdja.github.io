@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amaydio Dwi Cahya</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <nav class="navigate">
+            <div class="logo">
+                <a href="main.html">Amaydio D.C</a>
+            </div>
+            <div class="menu">
+                <span class="bar">
+                </span>
+            </div>
+            <ul class="oplist">
+                <li class="opitem">
+                    <a href="#home" class="link">Home</a>
+                </li>
+                <li class="opitem">
+                    <a href="#about" class="link">About Me</a>
+                </li>
+                <li class="opitem">
+                    <a href="#mywork" class="link">My Work</a>
+                </li>
+                <li class="opitem">
+                    <a href="#contact" class="link">Contact</a>
+                </li>
+            </ul>      
+        </nav>
+    </header>
+    <section id="home" class="headline">
+        <div class="clip">
+            <div class="mainhead">
+                <h1 class="greet"> Hi, I am</h1>
+                <h1 class="name">Amaydio Dwi Cahya</h1>
+                <a href="#about" class="cta-btn">about me</a>
+            </div>
+        </div>
+    </section>
+    <script>
+        const navigate = document.querySelector('.navigate');
+        const menu = document.querySelector('.menu');
+
+        menu.addEventListener('click', function(){
+            navigate.classList.toggle('open');
+        });
+    </script>
+    <section id="about">
+        <p>I am a Software Engineer with 9 months of work experience. I have good knowledge
+            of Python programming language, OOP concept, and python gui framework.
+            i have basic knowledge in Django, postgresql, html, css, and javascript.
+        </p>
+    </section>
+    <section id="mywork">
+        <div class="container">
+            <div class="exp">
+                <h2>Work Experience</h2>
+                <p>Software Engineer, June 2019 - March 2020</p>
+                <p>at CV. Global Solusindo</p>
+            </div>
+            <div class="ref">
+                <p>See My Work at</p>
+                <a href="http://github.com/tjahdja"> Github </a>
+            </div>
+        </div>
+    </section>
+    <section id="contact">
+        <div class="linkedin">
+            <p>LinkedIn</p>
+            <a href="http://linkedin.com/in/amaydio">Amaydio Dwi Cahya</a>
+        </div>
+        <div class="email">
+            <p class="Ecap">E-mail</p>
+            <p>dwicahyaamaydio@gmail.com</p>
+        </div>
+    </section>
+</body>
+</html>
